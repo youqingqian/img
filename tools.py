@@ -138,7 +138,7 @@ def handle_photo():
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
     # 这里可以直接修改到你的hexo资源目录
-    with open("/Users/pym/Blog_Album/img/data.json", "w") as fp:
+    with open("/Users/pym/blog/source/photos/data.json", "w") as fp:
         json.dump(final_dict, fp)
 
 
